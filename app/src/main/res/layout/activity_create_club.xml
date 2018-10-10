@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shreevidya.ubs_2.CreateClub">
+
+    <EditText
+        android:id="@+id/name_create"
+        android:layout_width="212dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="85dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name of Club"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/description"
+        android:layout_marginTop="44dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="211dp"
+        android:layout_height="181dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Description"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="123dp"
+        android:layout_marginTop="73dp"
+        android:layout_below="@+id/name_create"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="210dp"
+        android:layout_height="47dp"
+        android:text="Create"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="346dp"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/description"
+        android:layout_alignStart="@+id/name_create" />
+</RelativeLayout>

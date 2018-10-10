@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shreevidya.ubs_2.Login">
+
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="103dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        android:layout_above="@+id/regbutton"
+        android:layout_alignStart="@+id/regbutton"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/regbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:text="Abc1234567"
+        android:id="@+id/passwordinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mavsidinput"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:theme="@style/AppTheme"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+        <EditText
+            android:text="indrajeet@mavs.uta.edu"
+            android:id="@+id/mavsidinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="MAVS ID"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="205dp"
+            tools:layout_editor_absoluteY="412dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

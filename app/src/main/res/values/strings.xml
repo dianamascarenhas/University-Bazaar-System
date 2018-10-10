@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Mavs Bazaar</string>
+    <string name="title_activity_leave_club">LeaveClub</string>
+    <string-array name="C">
+        <item>Please Select a Value</item>
+        <item>Create Club</item>
+        <item>Join Club</item>
+        <item>View Club</item>
+        <item>Leave Club</item>
+    </string-array>
+
+    <string-array name="M">
+        <item>Please Select a Value</item>
+        <item>Buy</item>
+        <item>Upload</item>
+        <item>Borrow</item>
+        <item>Exchange</item>
+    </string-array>
+
+    <string-array name="Merchandise">
+        <item>Please Select a Value</item>
+        <item>Sell</item>
+        <item>Lend</item>
+        <item>Exchange</item>
+    </string-array>
+
+    <string-array name="Message">
+        <item>Please Select a Value</item>
+        <item>Message Individual</item>
+        <item>Message Group</item>
+    </string-array>
+
+    <string-array name="Announce">
+        <item>Please Select a Value</item>
+        <item>Post</item>
+        <item>View</item>
+        <item>Delete</item>
+    </string-array>
+
+   <string-array
+        name="string_array_name">
+        <item>text_string</item>
+    </string-array>
+
+</resources>

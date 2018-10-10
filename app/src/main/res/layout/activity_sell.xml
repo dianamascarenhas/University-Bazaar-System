@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shreevidya.ubs_2.Sell"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#CFD8DC"
+            android:text="Logout"
+            tools:layout_editor_absoluteX="291dp"
+            tools:layout_editor_absoluteY="-66dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Post Item!"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@+id/textView2"
+            android:text="Name"
+            android:paddingTop="15dp"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="text"
+            android:paddingTop="15dp"
+            android:layout_toRightOf="@id/textView5"
+            android:layout_below="@id/textView2"/>
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_alignBaseline="@+id/editText"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/imgURL" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Enter Email"
+            android:inputType="text"
+            android:paddingTop="15dp"
+            android:layout_below="@+id/imgURL"
+            android:layout_alignStart="@+id/imgURL" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:paddingTop="40dp"
+            android:text="Description" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="260dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="Add Description"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:paddingTop="15dp"
+            android:layout_toRightOf="@id/textView6"
+            android:layout_below="@id/textView5"
+            android:layout_alignBottom="@+id/textView6" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:paddingTop="15dp"
+            android:layout_below="@id/description"/>
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Enter Date"
+            android:inputType="date"
+            android:paddingTop="15dp"
+            android:layout_toRightOf="@id/textView7"
+            android:layout_below="@id/description"/>
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:paddingTop="15dp"
+            android:layout_below="@id/date"/>
+
+        <EditText
+            android:id="@+id/Category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Category"
+            android:text="Other"
+            android:ems="10"
+            android:inputType="text"
+            android:paddingTop="15dp"
+            android:layout_toRightOf="@id/textView4"
+            android:layout_below="@id/date"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:paddingTop="15dp"
+            android:layout_below="@id/Category"/>
+
+        <EditText
+            android:id="@+id/imgURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Image url"
+            android:inputType="text"
+            android:layout_toRightOf="@id/textView10"
+            android:layout_below="@id/Category"
+            android:paddingTop="15dp"/>
+
+
+        <Button
+            android:id="@+id/post_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post"
+            android:layout_alignTop="@+id/planets_spinner"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:id="@+id/planets_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="37dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"
+            android:layout_below="@+id/editText"
+            android:layout_alignStart="@+id/exchangeEditview" />
+
+        <TextView
+            android:id="@+id/exchangeTextview"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Available till"
+            android:visibility="invisible"
+            android:paddingTop="15dp"
+            android:layout_below="@id/post_btn"/>
+        <!--<Button-->
+        <!--android:id="@+id/exchangeTextview"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:onClick="setDate"-->
+        <!--android:visibility="invisible"-->
+        <!--android:layout_below="@id/post_btn"-->
+        <!--android:text="Available" />-->
+
+        <EditText
+            android:id="@+id/exchangeEditview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Date"
+            android:visibility="invisible"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingTop="15dp"
+            android:layout_toRightOf="@id/exchangeTextview"
+            android:layout_below="@id/planets_spinner"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:visibility="invisible"
+            android:paddingTop="15dp"
+            android:layout_below="@id/planets_spinner"/>
+
+        <TextView
+            android:id="@+id/itemText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:layout_below="@+id/planets_spinner"
+            android:text="Exchange With"
+            android:paddingTop="15dp"/>
+
+        <EditText
+            android:id="@+id/Exchangeitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:visibility="invisible"
+            android:hint="Consider Items For Exchange"
+            android:inputType="text"
+            android:paddingTop="15dp"
+            android:layout_toRightOf="@id/itemText"
+            android:layout_below="@id/planets_spinner"/>
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Enter Price"
+            android:visibility="invisible"
+            android:inputType="numberDecimal"
+            android:paddingTop="15dp"
+            android:layout_toRightOf="@id/textView8"
+            android:layout_below="@id/planets_spinner"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="15dp"
+            android:layout_below="@id/exchangeEditview"/>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

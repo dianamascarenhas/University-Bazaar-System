@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/firstnameinput"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/lastnameinput"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/mavsidinput"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="MAVS ID"
+        android:inputType="textPersonName"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/passwordinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mavsidinput"
+
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/repasswordinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_below="@+id/mavsidinput"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="RE-ENTER PASSWORD"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/phonenoinput"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+
+        android:hint="Phone NO"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/resetbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+
+</LinearLayout>

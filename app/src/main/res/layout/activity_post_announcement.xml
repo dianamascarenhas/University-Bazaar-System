@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.shreevidya.ubs_2.PostAnnouncement">
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Logout"
+        android:background="#CFD8DC"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="187dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/create" />
+
+    <EditText
+        android:id="@+id/name_create"
+        android:layout_width="212dp"
+        android:layout_height="79dp"
+        android:layout_alignEnd="@+id/description"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Title"
+        android:textColor="#000000"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="211dp"
+        android:layout_height="181dp"
+        android:layout_below="@+id/name_create"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:hint="Description"
+        android:textColor="#000000"
+
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="210dp"
+        android:layout_height="47dp"
+        android:text="Post"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="346dp"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/description"
+        android:layout_alignStart="@+id/name_create" />
+</RelativeLayout>

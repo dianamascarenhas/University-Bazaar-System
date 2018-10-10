@@ -1,0 +1,41 @@
+{  "project_info": {
+    "project_number": "794759166718",
+    "firebase_url": "https://universitybazaar-b1e53.firebaseio.com",
+    "project_id": "universitybazaar-b1e53",
+    "storage_bucket": "universitybazaar-b1e53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794759166718:android:c5a20b1c76fc1f18",
+        "android_client_info": {
+          "package_name": "com.example.shreevidya.universitybazaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794759166718-a9aac0esuemb7ig739aer4e6k6qthi4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5pk8qUJixc3pCA46GTFhBXQ0XW9XKN68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

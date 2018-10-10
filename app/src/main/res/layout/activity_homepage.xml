@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:gravity="left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.shreevidya.ubs_2.Homepage">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Logout"
+        android:background="#CFD8DC"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/announcememt"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:text="Announcements"
+
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="29dp"
+            android:layout_weight="0.70" />
+
+
+        <Button
+            android:id="@+id/msg"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:layout_weight="0.31"
+
+            tools:layout_editor_absoluteX="269dp"
+            tools:layout_editor_absoluteY="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:weightSum="1">
+
+        <Spinner
+            android:id="@+id/s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.04" />
+
+        <Spinner
+            android:id="@+id/s4"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Club"
+
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="187dp"
+            android:layout_weight="0.70" />
+
+        <Button
+            android:id="@+id/merchandise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+
+            android:text="Merchandize"
+            tools:layout_editor_absoluteX="195dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:weightSum="1">
+        <Spinner
+            android:id="@+id/s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.04" />
+
+        <Spinner
+            android:id="@+id/s2"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="false" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/inboxbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inbox" />
+
+
+</LinearLayout>
